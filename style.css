@@ -1,0 +1,53 @@
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/bokeh.gif);
+    background-size: cover;
+    background-position: center;
+}
+.hero-card {
+    display: flex;
+    gap: 30px;
+    padding: 30px 40px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #3e181b;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition:0.5s;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #eeebcb;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color: #cb5b3b;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #3e181b;
+  color: #eeebcb;
+  padding: 10px 15px;
+  border: none;
+}
