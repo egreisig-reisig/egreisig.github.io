@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Emma Reisig Marketing</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Emma Reisig</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <input type="checkbox" id="nav-toggle">
-    <header class="header">
-        <div class="logo">Emma Reisig Marketing</div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-            <span></span>
-        </label>
+    <div id="wrapper">
+    <header>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+        <div id="homehero">
+        </div>
+    <main>
+       <div class="profile"></div>
+        <p>
+          <span class="welcome">Welcome</span>
+        </p>
+        <div class="underline"></div>
+        <p>
+          My name's Emma. I'm a Marketing professional and Business Administration major at Arizona State University.
+        </p>
+        <p>
+          Here you'll find a showcase of my work in marketing as well as my certifications and skillsets. If you need to contact me, feel free to visit my Contact page.
+        </p>
+      </div>
+    </main>
+    <footer>
+        <p>© Emma Reisig Marketing</p>
+        <p>egreisig@asu.edu</p>
+    </footer>
+  </div>
+  </body>
+</html>
